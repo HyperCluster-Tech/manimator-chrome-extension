@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Manimator Launcher for arXiv",
+  "version": "1.1",
+  "description": "Quickly launch Manimator visualizations for arXiv articles.",
+  // "permissions" gives your extension the ability to work with the active tab
+  // (e.g., read URL, manipulate the active tab, etc.)
+  "permissions": ["activeTab"],
+
+  // "action" defines what happens when the user clicks on the extension icon
+  "action": {
+    // This points to the HTML file displayed in the popup
+    "default_popup": "popup.html",
+
+    // You can set your icon paths for multiple sizes
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  }
+}
+///*Dr. Seth Dobrin 1Infinity Ventures & Qantm AI. Free for use under Creative Commons liscense contact seth@qantm.ai or seth@1infinity.vc *///
+

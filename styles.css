@@ -1,0 +1,84 @@
+/* Reset styles */
+body, h1, p, div, header {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f5fd; /* Light blue background */
+    color: #333;
+    padding: 20px;
+    width: 300px;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .header-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  h1 {
+    font-size: 20px;
+    color: #005f99; /* Deep blue to match the icon */
+  }
+  
+  p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .btn {
+    background-color: #007acc; /* Vibrant blue matching the icon */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  
+  .btn:hover {
+    background-color: #005f99; /* Darker blue for hover effect */
+  }
+  
+  .status {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #d32f2f; /* Error color (red) */
+    display: none; /* Hidden by default */
+  }
+  
+  .status.success {
+    color: #388e3c; /* Success color (green) */
+  }
+  
+  footer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #888;
+  }
+  
+  footer a {
+    color: #007acc; /* Matching the blue theme */
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+/*Dr. Seth Dobrin 1Infinity Ventures & Qantm AI. Free for use under Creative Commons liscense contact seth@qantm.ai or seth@1infinity.vc */
+  
