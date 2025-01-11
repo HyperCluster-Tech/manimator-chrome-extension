@@ -1,0 +1,1 @@
+# manimator-chrome-extension
